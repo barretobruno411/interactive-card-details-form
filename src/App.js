@@ -1,12 +1,12 @@
 import CardFront from "./components/CardFront";
+import CardBack from "./components/CardBack"
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <CardFront
-        expDate={"00/00"}
-      />
+      <CardFront/>
+      <CardBack />
     </div>
   );
 }
