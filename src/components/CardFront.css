@@ -1,0 +1,39 @@
+.card-front {
+   position: relative;
+   width: 80vw;
+    
+}
+
+.card-front img {
+    width: 100%;
+}
+
+.card-infos {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
+    color: white;
+}
+.card-infos img {
+    width: 15vw;
+    margin-bottom: 5vh;
+}
+
+.card-infos h2 {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    align-self: center;
+    font-size: 18px;
+    margin-bottom: 4vh;
+}
+.front-card-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    
+}
