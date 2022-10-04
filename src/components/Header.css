@@ -1,0 +1,36 @@
+header {
+    height: 36.2vh;
+    background-image: url(../images/bg-main-mobile.png);
+    position: relative;
+}
+
+.card-front {
+    position: absolute;
+    top: -6vh;
+    left: 4vw;
+    z-index: 2;
+}
+
+.card-back {
+    z-index: 1;
+    position: absolute;
+    top: 5vh;
+    left: 15vw;
+}
+
+@media (min-width: 600px ) {
+    header {
+        background-image: url(../images/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .card-front {
+        top: -15vh;
+        left: 8vw;
+    }
+    .card-back {
+        top: 47vh;
+        left: 15vw;
+    }
+}

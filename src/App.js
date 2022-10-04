@@ -1,12 +1,10 @@
-import CardFront from "./components/CardFront";
-import CardBack from "./components/CardBack"
 import "./App.css";
+import Header from "./components/Header"
 
 function App() {
   return (
     <div className="App">
-      <CardFront/>
-      <CardBack />
+      <Header />
     </div>
   );
 }

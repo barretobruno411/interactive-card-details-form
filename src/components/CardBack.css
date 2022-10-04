@@ -1,10 +1,10 @@
-.card-front {
+.card-back {
    position: relative;
    width: 80vw;
     
 }
 
-.card-front img {
+.card-back img {
     width: 100%;
 }
 
@@ -46,7 +46,7 @@
 }
 
 @media (min-width: 600px) {
-    .card-front {
+    .card-back {
         width: calc(80vw / 3)
      }
      .card-infos {
